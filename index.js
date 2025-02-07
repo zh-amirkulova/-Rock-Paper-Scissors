@@ -17,6 +17,9 @@ function playGame(){
 
     if (humanScore === 3 || computerScore === 3){ 
       console.log('Human score:',humanScore, 'Computer score:',computerScore) ; 
+      if(humanScore === 3){
+        alert('Congratulations! You winner!');
+      } else alert('You lose!')
       return  alert('This round finished!');
     } 
     });
